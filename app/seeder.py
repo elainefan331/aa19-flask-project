@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from random import randint, choice
-from .models import app, db
+from app import app, db
 from app.models.pokemons import Item, Pokemon, PokemonType
 
 
